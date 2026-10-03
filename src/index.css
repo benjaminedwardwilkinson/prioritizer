@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom subtle game aura & glow effects */
+.glow-gold {
+  box-shadow: 0 0 35px -8px rgba(245, 158, 11, 0.45);
+}
+
+.glow-violet {
+  box-shadow: 0 0 35px -8px rgba(139, 92, 246, 0.45);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 35px -8px rgba(6, 182, 212, 0.45);
+}
+
+.glow-rose {
+  box-shadow: 0 0 35px -8px rgba(244, 63, 94, 0.45);
+}
+
+/* Touch & tap responsiveness */
+button, [role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbars for slick mobile game look while preserving scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

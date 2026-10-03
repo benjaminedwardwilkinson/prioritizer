@@ -1,0 +1,6 @@
+{
+  "name": "Prioritizer",
+  "description": "Your life. Your priorities. Your choice. An audiovisual game to discover what matters, compare declared values with real-world time, money, and attention, explore friction, and experiment with life design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
